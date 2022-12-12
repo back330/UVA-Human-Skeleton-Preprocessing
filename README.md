@@ -64,8 +64,18 @@ label = int(ske_name[-14:-11])
 ~~~
 labels_vector = np.zeros((num_skes, 155))
 ~~~
-3. Classify the training and testing according to the https://github.com/SUTDCV/UAV-Human amend the 197-205 lines of code is as follows (here is the reference he gave the second scheme).
-
+3. Classify the training and testing according to the https://github.com/SUTDCV/UAV-Human amend the 197-205 lines of code is as follows (here is the reference he gave the first scheme).
+~~~
+train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 
+             16, 17, 18, 19, 20, 21, 25, 26, 27, 28, 29, 
+             30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 
+             44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 
+             59, 61, 62, 63, 64, 65, 67, 68, 69, 70, 71, 73, 76, 77,
+             78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 98, 100, 
+             102, 103, 105, 106, 110, 111, 112, 114, 115, 116, 117, 118]
+test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92, 
+            93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
+~~~
 # Changes to statistics
 
 The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below
