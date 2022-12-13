@@ -79,9 +79,9 @@ test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92,
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/Division_strategy.jpg)
 # Changes to statistics
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/dir.jpg)  
-The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below
-![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/labels.jpg) 
-![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/uva_resource.jpg)
+The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below  
+![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/labels.jpg)   
+![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/uva_resource.jpg)  
 Similarly, the numbers of the orange box, green box, and purple box in the above data are extracted and stored in performer.txt, setup.txt, and replication.txt files respectively, and 1 is stored in camera.txt
 Write A PROGRAM TO READ ALL THE sample filenames AND extract the required data into the corresponding file. The file in statistics needs to be updated before get_raw_denoisded_data.py is executed)
 Create a new updata_statistics.py with the following code:
