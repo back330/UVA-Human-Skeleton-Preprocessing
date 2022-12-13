@@ -162,4 +162,4 @@ if __name__ == '__main__':
     updata_statistics()
 ~~~
 # Conclude
-**After making these changes, running updata_statistics.py, get_raw_skes_data.py, get_raw_denoisded_data.py, and seq_transformation.py**
+**After making these changes, running updata_statistics.py, get_raw_skes_data.py, get_raw_denoisded_data.py, and seq_transformation.py.**
