@@ -1,8 +1,8 @@
 # UVA-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
-UVA 3D Human Dataset address:https://github.com/SUTDCV/UAV-Human  
-CTR-GCN Source code address:https://github.com/Uason-Chen/CTR-GCN
+UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
+CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
 
 # Changes to get_raw_skes_data.py
 1. Changing the file extension from '.skeleton' to '.txt' in 26 lines
@@ -16,7 +16,7 @@ print('Reading data from %s' % ske_file[-51:])
 3. Deleting lines 43-45 from the original code
 ~~~
 if num_bodies == 0:  # no data in this frame, drop it
-     frames_drop.append(f)  # 0-based index
+     frames_drop.append(f)
      continue
 ~~~
 4. In the following code, changing 25 to 17
@@ -32,7 +32,7 @@ for b in range(num_bodies):
     else:
           bodyID = '000'
     current_line += 1
-    num_joints = int(str_data[current_line].strip('\r\n'))  # 25 joints
+    num_joints = int(str_data[current_line].strip('\r\n')) 
     current_line += 1
 ~~~
 6. Changing lines 57-61 to: (Here we store each node coordinate with a random value between 0 and 1e-6 to eliminate the effect of all-0 data frames)
@@ -82,9 +82,9 @@ test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92,
 The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below  
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/labels.jpg)   
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/uva_resource.jpg)  
-Similarly, the numbers of the orange box, green box, and purple box in the above data are extracted and stored in performer.txt, setup.txt, and replication.txt files respectively, and 1 is stored in camera.txt.
+**Similarly, the numbers of the orange box, green box, and purple box in the above data are extracted and stored in performer.txt, setup.txt, and replication.txt files respectively, and 1 is stored in camera.txt.
 Writing a program to read all the sample filenames and extract the required data into the corresponding file. The file in statistics needs to be updated before get_raw_denoisded_data.py is executed.)
-Create a new updata_statistics.py with the following code:
+Create a new updata_statistics.py with the following code:**
 ~~~
 def updata_statistics():
 
