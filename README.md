@@ -8,7 +8,12 @@ CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
 https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
 
 # Training & Testing
+
++ Change the config file depending on what you want.
+~~~
+Example: training model on UVA 3D Human cross subject with GPU 0
 python main.py --config config/uav-cs-v1/default-uav.yaml --model model.ctrgcn.Model --work-dir work_dir/uav/cs-v1/ctrgcn --device 0
+~~~
 
 # Changes to get_raw_skes_data.py
 1. Changing the file extension from '.skeleton' to '.txt' in 26 lines
