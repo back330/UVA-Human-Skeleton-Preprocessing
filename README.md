@@ -7,7 +7,7 @@ CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
 # UVA Google cloud drive address  
 https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
 
-# Training & Testing
+# Training
 
 + Change the config file depending on what you want.
 ~~~
