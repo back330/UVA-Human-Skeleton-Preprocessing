@@ -1,1 +1,0 @@
-python main.py --config config/uav-cs-v1/default-uav.yaml --model model.ctrgcn.Model --work-dir work_dir/uav/cs-v1/ctrgcn --device 0
