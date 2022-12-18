@@ -4,6 +4,9 @@ The processing of the uva dataset is improved from the preprocessing method of t
 UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
 CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
 
+#UVA Google cloud drive address  
+https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
+
 # Changes to get_raw_skes_data.py
 1. Changing the file extension from '.skeleton' to '.txt' in 26 lines
 ~~~
