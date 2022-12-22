@@ -82,7 +82,7 @@ label = int(ske_name[-14:-11])
 ~~~
 labels_vector = np.zeros((num_skes, 155))
 ~~~
-3. Classify the training and testing according to the https://github.com/SUTDCV/figure/UAV-Human amend the 197-205 lines of code is as follows (here is the reference he gave the first scheme).
+3. Classify the training and testing according to the https://github.com/SUTDCV/UAV-Human amend the 197-205 lines of code is as follows (here is the reference he gave the first scheme).
 ~~~
 train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 
              16, 17, 18, 19, 20, 21, 25, 26, 27, 28, 29, 
@@ -98,8 +98,8 @@ test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92,
 # Changes to statistics
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/dir.jpg)  
 **The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below:**  
-![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/labels.jpg)   
-![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/uva_resource.jpg)  
+![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/labels.jpg)   
+![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/uva_resource.jpg)  
 **Similarly, the numbers of the orange box, green box, and purple box in the above data are extracted and stored in performer.txt, setup.txt, and replication.txt files respectively, and 1 is stored in camera.txt.
 Writing a program to read all the sample filenames and extract the required data into the corresponding file. The file in statistics needs to be updated before get_raw_denoisded_data.py is executed.)
 Create a new updata_statistics.py with the following code:**
