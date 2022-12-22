@@ -3,7 +3,7 @@ The processing of the uva dataset is improved from the preprocessing method of t
 
 UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
 CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN  
-UVA Cross-Subject-v1 Data preprocessing:https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
+UVA Cross-Subject-v1 Data preprocessing: https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
 
 Directory Stucture
 
@@ -14,9 +14,9 @@ Put downloaded data into the following directory structure:
   -
 ~~~
 
-# Training
+Training
 
-+ Change the config file depending on what you want.
+Change the config file depending on what you want.
 ~~~
 Example: training model on UVA 3D Human cross subject with GPU 0
 python main.py --config config/uav-cs-v1/default-uav.yaml --model model.ctrgcn.Model --work-dir work_dir/uav/cs-v1/ctrgcn --device 0
