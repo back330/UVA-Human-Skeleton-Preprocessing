@@ -5,7 +5,7 @@ UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human
 CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN  
 UVA Cross-Subject-v1 Data preprocessing: https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
 
-Directory Stucture
++ Directory Stucture
 
 Put downloaded data into the following directory structure:
 ~~~
@@ -14,7 +14,7 @@ Put downloaded data into the following directory structure:
   -
 ~~~
 
-Training
++ Training
 
 Change the config file depending on what you want.
 ~~~
