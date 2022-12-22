@@ -4,8 +4,7 @@ The processing of the uva dataset is improved from the preprocessing method of t
 UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
 CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
 
-# UVA Google cloud drive address  
-https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
+UVA Cross-Subject-v1 Data preprocessing: https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
 
 # Training
 
@@ -173,4 +172,4 @@ if __name__ == '__main__':
     updata_statistics()
 ~~~
 # Conclude
-**After making these changes, running updata_statistics.py, get_raw_skes_data.py, get_raw_denoisded_data.py, and seq_transformation.py.**
+**After making these changes, running updata_statistics.py, get_raw_skes_data.py, get_raw_denoisded_data.py, and seq_transformation.py, In addition, the data is being cleaned up and stay tuned**
