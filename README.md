@@ -2,7 +2,7 @@
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
 UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
-CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
+CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN  
 UVA Cross-Subject-v1 Data preprocessing: https://drive.google.com/drive/folders/1AgzgvLo02abnVnUQIEdATFvthWYAevt7
 
 Directory Stucture
