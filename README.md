@@ -95,7 +95,7 @@ train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15,
 test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92, 
             93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
 ~~~
-![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/Divisionstrategy.jpg)
+![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/Division%20strategy.jpg)
 # Changes to statistics
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/dir.jpg)  
 **The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below:**  
