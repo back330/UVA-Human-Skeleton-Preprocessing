@@ -3,8 +3,8 @@ The processing of the uva dataset is improved from the preprocessing method of t
 
 UVA 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
 CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN  
-UVA Cross-Subject-v1 Data preprocessed: https://drive.google.com/file/d/1PzxJohTxu3MbPD9Y1TcxKLJXtfDFNgKp/view?usp=share_link  
-UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/1MwN4iNChfAza8cgJ_T2JCRm2P6rDm6ni/view?usp=share_link
+UVA Cross-Subject-v1 Data preprocessed: https://drive.google.com/file/d/1UiRcsTJk2KqixdPeadqSBuMDDSJ64jdb/view?usp=share_link 
+UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/12GkOYC2laz4pyavb6cWt0sMLSqy2FpKw/view?usp=share_link
 
 + Directory Stucture
 
@@ -95,7 +95,7 @@ train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15,
 test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92, 
             93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
 ~~~
-![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/Division strategy.jpg)
+![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/Divisionstrategy.jpg)
 # Changes to statistics
 ![image](https://github.com/back330/UVA-Human-Skeleton-Preprocessing/blob/main/figure/dir.jpg)  
 **The filename of all uva (A total of 23031 samples) is stored in skes_available_name.txt as shown below, and all sample action types are extracted (the number behind the blue box A in the following figure) and stored in the label.txt file as shown below:**  
